@@ -16,8 +16,7 @@ int Partition(int a[], int low, int high)
 	int pivot, index, i;
 	index = low;
 	pivot = high;
- 
-	
+
 	for(i=low; i < high; i++)
 	{
 		if(a[i] < a[pivot])
